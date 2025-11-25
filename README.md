@@ -81,9 +81,6 @@ Til payload-dekodning gemmes skabeloner i `lorawan/templates/` og kan genbruges 
 
 Sikkerhed og hemmeligheder (Secrets)
 -----------------------------------
-- Gem ALDRIG adgangsnøgler, device keys eller andre hemmeligheder i repo.
-- Brug `homeassistant/secrets.yaml` og tilføj `secrets.yaml` til `.gitignore`.
-- Overvej at bruge GitHub Secrets + Actions til CI, hvis du har automatiske deploys.
 
 CI / Formattering
 -----------------
@@ -115,7 +112,7 @@ Eksempler på nyttige kommandoer
 
 License
 -------
-Forslag: MIT. Hvis du foretrækker en anden licens, opdater `LICENSE`-filen.
+MIT.
 
 Kontakt / Forfatter
 -------------------
