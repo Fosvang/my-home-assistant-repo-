@@ -124,9 +124,4 @@ TODO / Fremtidige forbedringer
 - Flere eksempler til TTN og ChirpStack
 - Automatiske tests for payload-dekodere
 
----
-Vil du have, at jeg:
-- opretter en LICENSE-fil (f.eks. MIT) i repo'et?
-- opdaterer clone-eksemplet til en bestemt branch?
-- oversætter hele README'en fuldstændigt til engelsk?
 
