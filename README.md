@@ -1,13 +1,19 @@
-# My Home Assistant + LoRaWAN repo
+# Home Assistant + LoRaWAN Repo
 
-Formål: centraliseret konfiguration, versionering og CI for Home Assistant og LoRaWAN-enheder.
+Formål
+------
+Centraliseret konfiguration, versionering og CI for Home Assistant-projektet med LoRaWAN-enheder.
 
-Struktur:
-- `homeassistant/` - hovedkonfiguration (YAML)
-- `lorawan/devices/` - per-enhed YAML beskrivelser og EUI
-- `docs/` - projekt-dokumentation
+Indhold (kort)
+---------------
+- `homeassistant/` - alle Home Assistant YAML-filer og packages
+- `lorawan/` - enhedsbeskrivelser (EUI), templates og eksempler
+- `docs/` - projekt-dokumentation (MkDocs eller ren Markdown)
+- `.github/workflows/` - CI / autoformat / PR-skabeloner
+- `tools/` - hjælpe-scripts (fx parse_hex_payload.py)
+---------------
+1. Clone repo:
+   ```bash
+   git clone git@github.com:fosvang/ my-home-assistant-repo.git
+   cd homeassistant
 
-CI:
-- `ci.yml` validerer YAML og kører tests på PR.
-
-Se `docs/architecture.md` for arkitektur-oversigt.
